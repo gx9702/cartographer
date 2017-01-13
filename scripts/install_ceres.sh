@@ -18,7 +18,7 @@ set -o errexit
 set -o verbose
 
 # Build and install Ceres.
-git clone https://ceres-solver.googlesource.com/ceres-solver
+git clone https://github.com/gx9702/ceres-solver.git
 cd ceres-solver
 mkdir build
 cd build
